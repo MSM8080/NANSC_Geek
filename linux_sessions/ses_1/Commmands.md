@@ -104,7 +104,8 @@
     $ find -mtime -n    # n hours ago
     $ find -mtime +n    # n days ago
 
-    $ cp -p # preserve
+    $ cp -p     # preserve
+    $ cp -a     # copy only modified files + preserve + recursivly
    
     $ head -n
 
@@ -115,11 +116,13 @@
     
     $ ps aux
     
-    $ grep -i
-    $ grep -v
+    $ grep -i   # case insensitive
+    $ grep -v   # display non matching pattern
+    $ grep -l   # mention only name of the file that conatins the pattern
 
     $ less -R
     $ less -f
+
 
 ## complex commands expressions
     $ watch "ps aux | grep process_name"
