@@ -1,5 +1,6 @@
 # Things that was mentioned during the sessions
 
+
 ## Topics
     - permissions bits
     - absolute/relative path 
@@ -47,7 +48,6 @@
     $ tail
     $ head
     $ echo
-    $ | > >>
     $ watch 
     $ ps
     $ top
@@ -55,6 +55,7 @@
     $ grep
     $ sync
     $ rsync
+
 
 ## Command with options
     $ cd - 
@@ -72,24 +73,7 @@
     $ ln -s
     
     $ du -h
-    $ du --max-depth=1
-    
-    $ ctrl+c
-    $ ctrl+z
-    $ ctrl+r        # search inside commands history
-    $ !!
-    $ !n            # n: number of command in history
-    $ tab
-    $ tab+tab
-    $ up arrow
-    $ down arrow
-    $ esc+.
-    $ 2>            # redirect (with override) the error stream
-    $ 1>            # redirect (with override) the output stream 
-    $ 2>>           # redirect the error stream
-    $ 1>>           # redirect the output stream
-    $ > 2>&1        # redirect (with override) error stream to what output stream redirect (with override) to
-    $ >> 2>>$1      # redirect error stream to what output stream redirect to `
+    $ du --max-depth=1 
 
     $ rm *
     $ rm -i
@@ -126,11 +110,31 @@
 
 ## complex commands expressions
     $ watch "ps aux | grep process_name"
+    $
+    $ | > >>
+    $ ctrl+c
+    $ ctrl+z
+    $ ctrl+r        # search inside commands history
+    $ !!
+    $ !n            # n: number of command in history
+    $ tab
+    $ tab+tab
+    $ up arrow
+    $ down arrow
+    $ esc+.
+    $ 2>            # redirect (with override) the error stream
+    $ 1>            # redirect (with override) the output stream 
+    $ 2>>           # redirect the error stream
+    $ 1>>           # redirect the output stream
+    $ > 2>&1        # redirect (with override) error stream to what output stream redirect (with override) to
+    $ >> 2>>$1      # redirect error stream to what output stream redirect to `
+
 
 ## file systems
     - zfc # automatic history for modifications
     - ext4
     - ext3
+
 
 ## files
     - ~/.bash_history

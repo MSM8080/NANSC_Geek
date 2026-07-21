@@ -1,5 +1,6 @@
 # Things that was mentioned during the session
 
+
 ## Topics
     - archiving & compressing
     - filesystem hirarechy 
@@ -49,12 +50,14 @@
     $ free -g       # display memeory size in gigabytes
     $ free -h       # display memeory size in human-readable foramt
 
+
 ## complex commands expressions
     $ rm dir/{file_1.txt,file_2.txt}     # delete 2 files
 
     $ sudo chown user:group file
     
     $ find /home/msm/Downlods -mtime +30 -exec rm {}
+
 
 ## files extensions
     - .tar  # tar archive extension
