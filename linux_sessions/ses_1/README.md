@@ -18,7 +18,7 @@
 - creation & modification time
 - archive [Linux foundation doc](https://training.linuxfoundation.org/blog/how-to-create-and-manage-archive-files-in-linux/)
 - logs [Loggly doc](https://www.loggly.com/ultimate-guide/linux-logging-basics/)
-- standard streams (tutorials doc)[https://www.tutorialspoint.com/unix/unix-io-standard-streams.htm]
+- standard streams [tutorials doc](https://www.tutorialspoint.com/unix/unix-io-standard-streams.htm)
 
 
 ## Commands 
