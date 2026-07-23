@@ -2,25 +2,24 @@
 
 
 ## Topics
-    - permissions bits
-        [RedHat](https://www.redhat.com/en/blog/linux-file-permissions-explained)
-    - absolute/relative path 
-    - user/group
-    - default permissions bits
-    - hard/soft links
-    - file type charachter
-    - pipeing commands
-    - redirections commands
-    - hidden files
-    - wild cards
-    - directory size
-    - killing signals
-    - modifications types of files & directories
-    - aliasing
-    - creation & modification time
-    - archive
-    - logs
-    - standard streams
+- permissions bits [RedHat doc](https://www.redhat.com/en/blog/linux-file-permissions-explained)
+- absolute/relative path [RedHat doc](https://www.redhat.com/en/blog/linux-path-absolute-relative)
+- user/group [Medium doc](https://medium.com/@jasurbek.go.dev/users-groups-and-permissions-in-linux-1fa6d56b744a)
+- default permissions bits
+- hard/soft links
+- file type charachter
+- pipeing commands
+- redirections commands
+- hidden files
+- wild cards
+- directory size
+- killing signals
+- modifications types of files & directories
+- aliasing
+- creation & modification time
+- archive
+- logs
+- standard streams
 
 
 ## Commands 
