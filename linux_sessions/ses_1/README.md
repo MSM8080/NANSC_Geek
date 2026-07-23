@@ -3,7 +3,7 @@
 
 ## Topics
     - permissions bits
-        "https://www.redhat.com/en/blog/linux-file-permissions-explained"
+        [RedHat](https://www.redhat.com/en/blog/linux-file-permissions-explained)
     - absolute/relative path 
     - user/group
     - default permissions bits
