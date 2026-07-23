@@ -5,21 +5,20 @@
 - permissions bits [RedHat doc](https://www.redhat.com/en/blog/linux-file-permissions-explained)
 - absolute/relative path [RedHat doc](https://www.redhat.com/en/blog/linux-path-absolute-relative)
 - user/group [Medium doc](https://medium.com/@jasurbek.go.dev/users-groups-and-permissions-in-linux-1fa6d56b744a)
-- default permissions bits
-- hard/soft links
-- file type charachter
-- pipeing commands
-- redirections commands
-- hidden files
-- wild cards
-- directory size
-- killing signals
-- modifications types of files & directories
-- aliasing
+- default permissions bits [RedHat doc](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/configuring_basic_system_settings/managing-file-system-permissions_configuring-basic-system-settings)
+- hard/soft links [Dev doc](https://dev.to/kamruldev/linux-soft-links-and-hard-links-2g3l)
+- file type charachter [Linuxcom doc](https://www.linux.com/training-tutorials/file-types-linuxunix-explained-detail/)
+- pipeing commands [GeekforGeeks doc](https://www.geeksforgeeks.org/linux-unix/piping-in-unix-or-linux/)
+- redirections commands [DigitalOcean doc](https://www.digitalocean.com/community/tutorials/an-introduction-to-linux-i-o-redirection)
+- hidden files [GeekforGeeks doc](https://www.geeksforgeeks.org/linux-unix/how-to-view-and-create-hidden-files-in-linux/)
+- wild cards [Medium doc](https://medium.com/@saikiransarvepalli/mastering-wildcards-in-linux-89206f2d595e)
+- directory size [Linuxize doc](https://linuxize.com/post/how-get-size-of-file-directory-linux/)
+- killing signals [man7 doc](https://man7.org/linux/man-pages/man7/signal.7.html)
+- aliasing [GeekforGeeks doc](https://www.geeksforgeeks.org/linux-unix/alias-command-in-linux-with-examples/)
 - creation & modification time
-- archive
-- logs
-- standard streams
+- archive [Linux foundation doc](https://training.linuxfoundation.org/blog/how-to-create-and-manage-archive-files-in-linux/)
+- logs [Loggly doc](https://www.loggly.com/ultimate-guide/linux-logging-basics/)
+- standard streams (tutorials doc)[https://www.tutorialspoint.com/unix/unix-io-standard-streams.htm]
 
 
 ## Commands 
