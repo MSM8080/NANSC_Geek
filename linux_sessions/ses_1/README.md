@@ -3,6 +3,7 @@
 
 ## Topics
     - permissions bits
+        "https://www.redhat.com/en/blog/linux-file-permissions-explained"
     - absolute/relative path 
     - user/group
     - default permissions bits
@@ -58,70 +59,68 @@
 
 
 ## Command with options
-    $ cd - 
-    $ cd ~
-    $ cd .
-    $ cd ..
+    $ cd -                  # return to most recent previous directory path
+    $ cd ~                  # return to home directory path
+    $ cd .                  # go to current directory path
+    $ cd ..                 # return one step backward directory path
     
-    $ ls -l
-    $ ls -h
-    $ ls -t
-    $ ls -r
-    $ ls -a
-    $ ls -d
+    $ ls -l                 # list content with more info
+    $ ls -h                 # list content with human-reada ble size
+    $ ls -t                 # list content sorted by time stamp
+    $ ls -r                 # list content sorted reversed 
+    $ ls -a                 # list all content even hidden
+    $ ls -d                 # list only directory 
 
-    $ ln -s
+    $ ln -s                 # create symbolic link
     
-    $ du -h
-    $ du --max-depth=1 
+    $ du -h                 # display files disk usage in human readable file
+    $ du --max-depth=1      # display files disk usage but not files in sub-directory
 
-    $ rm *
-    $ rm -i
-    $ rm -r
-    $ rm -I
+    $ rm *                  # remove all 
+    $ rm -i                 # remove with asking every time for inshuring removing
+    $ rm -r                 # remove recursively
+    $ rm -I                 # remove but ask just one time for inshuring removing
 
-    $ find -name
-    $ find
-    $ find -type
-    $ find -mmin -n     # n minutes ago
-    $ find -mmin +n     # n hours ago
-    $ find -mtime -n    # n hours ago
-    $ find -mtime +n    # n days ago
+    $ find -name            # by file name
+    $ find -type            # by type
+    $ find -mmin -n         # by time n minutes ago
+    $ find -mmin +n         # by time n hours ago
+    $ find -mtime -n        # by time n hours ago
+    $ find -mtime +n        # by time n days ago
 
-    $ cp -p     # preserve
-    $ cp -a     # copy only modified files + preserve + recursivly
+    $ cp -p                 # preserve creation & modification time stamp
+    $ cp -a                 # copy only modified files + preserve + recursivly
    
-    $ head -n
+    $ head -n               # print first n line in file
 
-    $ tail -n 
+    $ tail -n               # print last n lines in file
     $ tail -f
 
-    $ watch [ command ] -n
+    $ watch [ command ] -n  # execute command periodically every n seconds
     
-    $ ps aux
+    $ ps aux                # print snapshot report for current processes states
     
-    $ grep -i   # case insensitive
-    $ grep -v   # display non matching pattern
-    $ grep -l   # mention only name of the file that conatins the pattern
+    $ grep -i               # case insensitive
+    $ grep -v               # display non matching pattern
+    $ grep -l               # mention only name of the file that conatins the pattern
 
-    $ less -R
-    $ less -f
+    $ less -R               # view logs files in suitable format
+    $ less -f               # force less to open & view non regualr files
 
 
 ## complex commands expressions
-    $ watch "ps aux | grep process_name"
-    $
-    $ | > >>
-    $ ctrl+c
-    $ ctrl+z
+    $ watch "ps aux | grep process_name"    # serach specifiec process in processes report
+    $ | > >>        # tools for redirection & piping 
+    $ ctrl+c        # termiante running process
+    $ ctrl+z        # pauses & suspends a running process
     $ ctrl+r        # search inside commands history
-    $ !!
+    $ !!            # rexecute last command
     $ !n            # n: number of command in history
-    $ tab
-    $ tab+tab
-    $ up arrow
-    $ down arrow
-    $ esc+.
+    $ tab           # auto complete in terminal
+    $ tab+tab       # display all auto complete suggestions
+    $ up arrow      # moving backward through previous executed commands in terminal
+    $ down arrow    # moving forward thorough previous executed commands in terminal
+    $ esc+.         # insert last executed command in terminal line  
     $ 2>            # redirect (with override) the error stream
     $ 1>            # redirect (with override) the output stream 
     $ 2>>           # redirect the error stream
@@ -131,13 +130,13 @@
 
 
 ## file systems
-    - zfc # automatic history for modifications
-    - ext4
-    - ext3
+    - zfc           # file system with feature of storing automaticly history for modifications
+    - ext4          # modern linux file system
+    - ext3          # old linux file system
 
 
 ## files
-    - ~/.bash_history
-    - ~/.bashrc
+    - ~/.bash_history   # file contain most recent old executed commands (commands history)
+    - ~/.bashrc         # file that executed every time a terminal session is opend
 
 
