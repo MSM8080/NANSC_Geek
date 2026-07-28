@@ -97,6 +97,6 @@
 ## Some regular expressions 
 - ^ : starting of the line
 - $ : end of the line
-- /* : any pattern
+- \* : any pattern
 ---
 
