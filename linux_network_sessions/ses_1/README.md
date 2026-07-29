@@ -22,7 +22,7 @@
 
 
 ## Commands 
-    $ ls
+   `$ ls`                # list directory content
     $ ll
     $ cd  
     $ pwd
