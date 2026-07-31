@@ -22,11 +22,11 @@
 
 
 ## Commands 
--`$ ls`              # list directory content
--`$ ll`              # alising for `$ ls -l` long format
--`$ cd`              # change directory
--`$ pwd`             # print working directory
-`$ ln`              # create links for files
+- `$ ls`              # list directory content
+- `$ ll`              # alising for `$ ls -l` long format
+- `$ cd`              # change directory
+- `$ pwd`             # print working directory
+- `$ ln`              # create links for files
     `$ clear`           # clear the terminal screen
     `$ reset`           # reset with initialize terminal 
     `$ history`         # GNU history for terminals last used commands
