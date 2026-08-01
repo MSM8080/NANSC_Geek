@@ -8,7 +8,11 @@
 
 - ethernet protocol use pins 1-2-3-6
 
-- RJ45 pins connection tester
+![Figure 2](./2.jpeg)
+
+- RJ45 pins connection tester [Youtube](https://www.youtube.com/watch?v=y3DmOPrmBio)
+
+![Figure 3](./3.jpeg)
 
 - osi layer 2 (data link): swithc /bridge
 
