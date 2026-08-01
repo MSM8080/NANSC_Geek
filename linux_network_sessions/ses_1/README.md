@@ -123,9 +123,9 @@
 - `$ >> 2>>$1`                                  # redirect error stream to what output stream redirect to 
 ---
 ## file systems
-- zfc           # file system with feature of storing automaticly history for modifications
-- ext4          # modern linux file system
-- ext3          # old linux file system
+- zfc           # file system with feature of storing automaticly history for modifications [Wiki doc](https://en.wikipedia.org/wiki/ZFS)
+- ext4          # modern linux file system [LinuxCareer doc](https://www.linuxcareers.com/resources/blog/2023/08/linux-file-systems-ext3-vs-ext4-a-comprehensive-overview-and-guide)
+- ext3          # old linux file system [LinuxCareer doc](https://www.linuxcareers.com/resources/blog/2023/08/linux-file-systems-ext3-vs-ext4-a-comprehensive-overview-and-guide)
 ---
 ## files
 - ~/.bash_history   # file contain most recent old executed commands (commands history)
