@@ -3,6 +3,7 @@
 ## Topics
 - RJ45 straight / crossover connection
 - RJ45 color codes A(T568A)/B(T568B)
+
 ![Figure 1](./1.jpeg)
 
 - ethernet protocol use pins 1-2-3-6
