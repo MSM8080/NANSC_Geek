@@ -1,6 +1,5 @@
 # Things that was mentioned during the sessions
-
-
+---
 ## Topics
 - permissions bits [RedHat doc](https://www.redhat.com/en/blog/linux-file-permissions-explained)
 - absolute/relative path [RedHat doc](https://www.redhat.com/en/blog/linux-path-absolute-relative)
@@ -19,8 +18,7 @@
 - archive [Linux foundation doc](https://training.linuxfoundation.org/blog/how-to-create-and-manage-archive-files-in-linux/)
 - logs [Loggly doc](https://www.loggly.com/ultimate-guide/linux-logging-basics/)
 - standard streams [tutorials doc](https://www.tutorialspoint.com/unix/unix-io-standard-streams.htm)
-
-
+---
 ## Commands 
 - `$ ls`              # list directory content
 - `$ ll`              # alising for `$ ls -l` long format
@@ -54,8 +52,7 @@
 - `$ grep`             # search for string patterns in a file
 - `$ sync`             # syncronize write operations for all disks and insure that no data is still bufered
 - `$ rsync`            # syncornized local/remote copying files method  
-
-
+---
 ## Command with options
 - `$ cd -`                  # return to most recent previous directory path 
 - `$ cd ~`                  # return to home directory path
@@ -68,44 +65,43 @@
 - `$ ls -r`                 # list content sorted reversed 
 - `$ ls -a`                 # list all content even hidden
 - `$ ls -d`                 # list only directory info
-
+-
 - `$ ln -s`                 # create symbolic link not hard
-
+-
 - `$ du -h`                 # display files disk usage in human readable file
 - `$ du --max-depth=1`      # display directory's files disk usage but only files inside this directory not in sub directory
-
+-
 - `$ rm *`                  # remove all 
 - `$ rm -i`                 # remove with asking every time for inshuring removing for multiple files
 - `$ rm -r`                 # remove recursively
 - `$ rm -I`                 # remove but ask just one time for inshuring removing for multiple files
-
+-
 - `$ find -name`            # by file name
 - `$ find -type`            # by file type {charcter, block, device , ....}
 - `$ find -mmin -n`         # by time less than n minutes ago
 - `$ find -mmin +n`         # by time greater than n minutes ago
 - `$ find -mtime -n`        # by time less than n(24) hours ago
 - `$ find -mtime +n`        # by time greater than n(24) hours ago
-
+-
 - `$ cp -p`                 # copy with preserve mode of ownership & timestamp (working with ext3,4 file systems)
 - `$ cp -a`                 # copy like archiving with preserve mode for every details related to this file
-   
+-   
 - `$ head -n`               # print first n line in file
-
+-
 - `$ tail -n`               # print last n lines in file
 - `$ tail -f`              # keep tracking any updates & print new lines that at the end of the file in terminal
-
+-
 - `$ watch -n`               # execute command periodically every n seconds
- 
+- 
 - `$ ps aux`                # print snapshot report for all current processes states
- 
+- 
 - `$ grep -i`               # case insensitive pattern
 - `$ grep -v`               # display non matching pattern's lines
 - `$ grep -l`               # mention only name of the file that conatins the pattern
-
+-
 - `$ less -R`               # view logs files in suitable format
 - `$ less -f`               # force less to open & view non regualr files
-
-
+---
 ## complex commands expressions
 - `$ watch "ps aux | grep process_name"`       # serach specifiec process in processes report that is being executed periodically
 - `$ | > >>`                                   # tools for redirection & piping 
@@ -125,17 +121,14 @@
 - `$ 1>>                                       # redirect the output stream
 - `$ > 2>&1                                    # redirect (with override) error stream to what output stream redirect (with override) to
 - `$ >> 2>>$1                                  # redirect error stream to what output stream redirect to 
-
-
+---
 ## file systems
 - zfc           # file system with feature of storing automaticly history for modifications
 - ext4          # modern linux file system
 - ext3          # old linux file system
 - xfc
-
-
+---
 ## files
 - ~/.bash_history   # file contain most recent old executed commands (commands history)
 - ~/.bashrc         # file that executed every time a terminal session is opend
-
-
+---
