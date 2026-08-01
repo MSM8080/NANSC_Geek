@@ -114,19 +114,18 @@
 - `$ tab+tab`                                  # display all auto complete suggestions
 - `$ up arrow`                                 # moving backward through previous executed commands in terminal
 - `$ down arrow`                               # moving forward thorough previous executed commands in terminal
-- `$ esc+.                                     # insert last executed command in terminal line  
-- `$ 2>                                        # redirect (with override) the error stream
-- `$ 1>                                        # redirect (with override) the output stream 
-- `$ 2>>                                       # redirect the error stream
-- `$ 1>>                                       # redirect the output stream
-- `$ > 2>&1                                    # redirect (with override) error stream to what output stream redirect (with override) to
-- `$ >> 2>>$1                                  # redirect error stream to what output stream redirect to 
+- `$ esc+.`                                     # insert last executed command in terminal line  
+- `$ 2>`                                        # redirect (with override) the error stream
+- `$ 1>`                                        # redirect (with override) the output stream 
+- `$ 2>>`                                       # redirect the error stream
+- `$ 1>>`                                       # redirect the output stream
+- `$ > 2>&1`                                    # redirect (with override) error stream to what output stream redirect (with override) to
+- `$ >> 2>>$1`                                  # redirect error stream to what output stream redirect to 
 ---
 ## file systems
 - zfc           # file system with feature of storing automaticly history for modifications
 - ext4          # modern linux file system
 - ext3          # old linux file system
-- xfc
 ---
 ## files
 - ~/.bash_history   # file contain most recent old executed commands (commands history)
