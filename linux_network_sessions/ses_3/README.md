@@ -1,74 +1,68 @@
 # Things that was mentioned during the session
-
-
+---
 ## topics
-    - process managment
-    - signals: {terminate - killing}
-    - foreground & background
-    - secure shell ssh    
-    - mount devices
-    - kernel events messages
-
-
+- process managment
+- signals: {terminate - killing}
+- foreground & background
+- secure shell ssh    
+- mount devices
+- kernel events messages
+---
 ## commands
-    $ htop
-    $ top
-    $ man
-    $ ps 
-    $ kill
-    $ ping
-    $ bg        # activate the last process in background
-    $ fg        # activate the last process in background
-    $ ssh
-    $ rsh
-    $ nohup     # don't terminate background process there, when i stop ssh session 
-    $ tmux
-    $ wc
-    $ mount
-    $ lsblk
-    $ dmesg
-    $ fdisk
-    $ umount
-    $ fuser
-    $ exit
-    $ lsof
-
-
+- `$ htop`      # dynamic report for processes of pc with more interactive features
+- `$ top`        # dynamic report for processes of pc
+- `$ man`        # manual page
+- `$ ps`         # static snapshot report for pc's prcoesses
+- `$ kill`       # send a signal to process
+- `$ ping`       # test connectivity of network device {send ICMP packets}
+- `$ bg`        # activate the last process in background
+- `$ fg`        # activate the last process in background
+- `$ ssh`        # open remote secure shell session
+- `$ rsh`        # open remote shell session
+- `$ nohup`     # don't terminate background process there, when i stop ssh session 
+- `$ tmux`       # older similar version of command {nohub}
+- `$ wc`         # print count of word, lines, etc.... that exists inside a file 
+- `$ mount`      # mount a new partition {make it accessible through a directory}
+- `$ lsblk`     # list block deivces
+- `$ dmesg`      # print kernal control message
+- `$ fdisk`      # partition table editor {like partition wizards editor}
+- `$ umount`     # unmount the parttion {make it not accessibale through directory}
+- `$ fuser`     # identify user / process that make this file / directory busy     
+- `$ exit`       # exit session
+- `$ lsof`      # list of open files 
+---
 ## commands with options
-    $ man -k 
-    
-    $ ps aux
-
-    $ kill -TERM                    # nicely kill
-    $ kill -KILL                    # brutely kill
-    $ kill -15                      # nicely kil
-    $ kill -9                       # brutely kill
-    $ tmux new -s session_name      # create new tmux session
-    $ tmux a -t session_name        # attach to tmux session
-
-    $ wc -l
-
-    $ mount -t
-
-    $ fdisk -l 
-
-    $ fuser -u                      # identify user that make the file busy
-    $ fuser -v                      # identify process that make the file busy
-    $ fuser -k                      # kill process that make the file busy
-
-
+- `$ man -k` 
+- 
+- `$ ps aux`                        # static snapshot report for all processes status on pc
+-
+- `$ kill -TERM`                    # nicely kill process
+- `$ kill -KILL`                     # brutely kill process
+- `$ kill -15`                      # nicely kil process
+- `$ kill -9`                       # brutely kill process
+- `$ tmux new -s session_name`      # create new tmux session
+- `$ tmux a -t session_name`        # attach to tmux session {after deattached}
+-
+- `$ wc -l`                         # count lines of file 
+-
+- `$ mount -t`                      # tell mount command what is the filesystem type of the partition that will be mounted rather than make it detected automatically
+-
+- `$ fdisk -l`                      # list partition tabke of a device 
+-
+- `$ fuser -u`                      # identify user that make the file busy
+- `$ fuser -v`                      # identify process that make the file busy
+- `$ fuser -k`                      # kill process that make the file busy
+---
 ## complex commands
-    $ command &             # run the command in the background
-    $ ctrl+z                # suspend (stop it) the process in background
-    $ ssh user@ip
-    $ nohup command &
-    $ ctrl+b+d              # de-attach to tmux session
-    $ !!                    # execute last command
-    $ ctrl+r                # serach for command in history
-    $ ctrl+d
-
-
+- `$ command &`             # run the command in the background
+- `$ ctrl+z`                # suspend (stop it) the process in background
+- `$ ssh user@ip`           # access shell of machine remotely & secure
+- `$ nohup command &`       # run command of ssh session in background even if the session was be interrubted or closed
+- `$ ctrl+b+d`              # de-attach to tmux session
+- `$ !!`                    # execute last command
+- `$ ctrl+r`                # serach for command in history
+- `$ ctrl+d`                 # exit terminal session
+---
 ## files
-    - /etc/hosts    # contain all local DNS IPs mapped names in the system
-
-
+- /etc/hosts    # contain all local DNS IPs mapped names in the system
+---
